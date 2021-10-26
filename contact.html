@@ -1,0 +1,96 @@
+<!--
+    For my chosen elements, I picked fieldset,label, and input. And the attributes I picked are required, name, and value.
+
+    This will be the page I actually implement them. I'm thinking the best way -- that makes sense for this mock site-- to
+    use these input elements is to build a dedicated contact page. And by contact page, I really mean a 'join my mailing list'
+    dedicated page. 
+
+    Similar to the other pages, I want it to be ultra simple, clean, and elegant. I'm thinking of a big white page with no 
+    pictures and no colors. It will be purely black text. In big text, it will say join our mailing list. 
+
+    This will be inpsiration: 
+    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU0b8gPZLh0sXXI9axLhaa1Vu0vMKJdlWKl1z30uSksdeHYs2qQ91UR_ibN-4EdA20cKg&usqp=CAU
+    https://s3.amazonaws.com/neverbounce-hosted/images/blog/7-newsletter-form-examples/Kate-Spade-1-25-19.jpg   
+
+    
+    Also, hopefully since I did five pages instead of four, I can get away with the lack of scrolling on this specific page. 
+
+    I also just want this page to have a text box for email and a submit button. 
+    -----
+    EXECUTION
+
+    I changed my mind. I wanted to invert the colors. In actors.html, entrep.html, and singers.html, I used a white background
+    with red text. For the Contact page, I want white text with red background. That didn't work out because I messed with the filters
+    so I just did a specific shade of red. I was aiming for a really light hue of red so its nearly white, but the color 
+    looks nice so I kept it. 
+
+    Also, by doing this, we can scroll which is good. Also, unlike that Kate Spade link above, mine actually looks like
+    it was filled with effort. (link for my color picker: https://htmlcolorcodes.com/) Also, the shade of red looks pretty
+    close to the text-color of the h1s in the other pages. I'm satisfied with how that looks
+
+
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Spotlight Profile | Elon Musk</title>
+        <link rel="shortcut icon" href="https://www.pngarts.com/files/11/Elon-Musk-PNG-Transparent-Image.png">
+        <link rel="stylesheet" href="elonstyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header role="banner">
+            <div class="logo-bar">
+                <p>The Profiler</p>
+            </div>
+            <nav role="navigation">
+                <ul>
+                    <li><a href="actors.html">Actors</a> </li>
+                    <li><a href="entrepreneurs.html">Entrepreneurs</a></li>
+                    <!--<li><a href="influencers.html">Influencers</a></li>-->
+                    <li><a href="singers.html">Singers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class = "welcome-page" style=" filter: brightness(100%); background-color:#A94545; padding-bottom:50px;"> 
+            <div class="welcome-info-general">
+                <h1 style="color:white;">Join the mailing list</h1>
+                <p> </p>
+            </div>
+            <img class="contact-picture" src="https://www.elegantthemes.com/blog/wp-content/uploads/2019/07/ben-day-dots-featured-image.jpg">
+        </div>
+        
+        <main role="main">
+            <article role="article">
+                <div class="profiler-form">
+                    <fieldset>
+                        <p class="profiler-form-caption">Never miss out on our latests updates by signing up for The Profiler's email newsletter. You'll be the first to hear about new articles and blog posts!</p>
+                        <label for="first-name">First name:</label>
+                        <input type="text" id="first-name" name="first-name" required><br><br>
+                        <label for="last-name">Last name:</label>
+                        <input type="text" id="last-name" name="last-name" required><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"required><br><br>
+
+                        <p>Can the profiler share collected information with third-party partners?</p>
+                        <input type="radio" id="consent-btn-yes" name="consent-btn" value="yes" required>
+                        <label for="consent-btn-yes"> Yes</label><br>
+                        <input type="radio" id="consent-btn-no" name="consent-btn" value="no" required>
+                        <label for="consent-btn-no"> No</label><br><br>
+                        
+                        <input type="submit" value="Submit">
+                    </fieldset>
+
+                </div>
+            </article>
+        </main>
+        <footer class="footer" role="contentinfo">
+            <p>Information taken from Wikipedia. Find more information on <a id="tribute-link" href="https://en.wikipedia.org/wiki/Elon_Musk" target="_blank">Wikipedia</a>.</p>
+            <p> Information taken from Business Insider. Find more information on <a href="https://www.businessinsider.com/the-rise-of-elon-musk-2016-7">Business Insider</a></p>
+            <p> Information taken from Startup mindset. Find more information on <a href="https://startupmindset.com/companies-owned-and-founded-by-elon-musk/">StartUp Mindset</a></p>
+            <p>Last Updated:9/28/2021</p>
+          </footer>
+    </body>
+</html>
