@@ -2,4 +2,4 @@
 
 Contact Page
 
-!![Screenshot](images/survey.png))
+!![Screenshot](https://github.com/kyledeguzmanx/fDev-website-theProfiler/blob/master/images/survery.png))
