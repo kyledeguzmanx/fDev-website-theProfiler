@@ -1,4 +1,4 @@
-# The Profiler WebSite
+# The Profiler Website
 
 ## Introduction
 The Profiler is a static website that features prominent actors, singers, and entrepreneurs. For the most part, the web pages are mostly a list-type format. The lists features a public figure's name, photo, and a description. 
