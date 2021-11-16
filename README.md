@@ -1,27 +1,27 @@
-# The Profiler Website
+# THE PROFILER WEBSITE
 
-## Introduction
+## INTRODUCTION
 The Profiler is a static website that features prominent actors, singers, and entrepreneurs. For the most part, the web pages are mostly a list-type format. The lists features a public figure's name, photo, and a description. 
-## Technology Used
+## TECHNOLOGY
 * HTML5
 * CSS
 * Google Fonts
-* HTML Color Codes (https://htmlcolorcodes.com/color-picker/)
+* [HTML Color Codes](https://htmlcolorcodes.com/color-picker/)
 
-## Features
+## FEATURES
 * Red Color Theme
 * Horizontal Navigation Bar
 * Feedback Forms (Checkboxes, radio buttons, text boxes, and submit buttons)
 
 
-## Screenshots
+## SCREENSHOTS
 
-Contact Page  
+### Contact Page  
 ![Screenshot](https://github.com/kyledeguzmanx/fDev-website-theProfiler/blob/master/images/survey-header.png)
 ![Screenshot](https://github.com/kyledeguzmanx/fDev-website-theProfiler/blob/master/images/survery.png)
 
 
-Singer Page  
+### Singer Page  
 ![Screenshot](https://github.com/kyledeguzmanx/fDev-website-theProfiler/blob/master/images/singer-header.png)
 ![Screenshot](https://github.com/kyledeguzmanx/fDev-website-theProfiler/blob/master/images/singer-header2.png)
 ![Screenshot](https://github.com/kyledeguzmanx/fDev-website-theProfiler/blob/master/images/singer.png)
