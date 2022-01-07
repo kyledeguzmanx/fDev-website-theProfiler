@@ -2,6 +2,11 @@
 
 ## INTRODUCTION
 The Profiler is a static website that features prominent actors, singers, and entrepreneurs. For the most part, the web pages are mostly a list-type format. The lists features a public figure's name, photo, and a description. 
+  
+live site: https://kyledeguzmanx.github.io/fDev-website-theProfiler/contact.html  
+
+Note: This was the first site I ever made. I hope my other projects showcase my growth.  
+
 ## TECHNOLOGY
 * HTML5
 * CSS
